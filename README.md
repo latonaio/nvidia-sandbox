@@ -3,9 +3,8 @@
 ***
 
 # nvidia-sandbox  
-nvidia-sandbox は、主にエッジコンピューティング環境において、NVIDIAの学習済みAIモデルを利用するためのリソースをまとめたリポジトリです。  
+nvidia-sandbox は、NVIDIAの学習済みAIモデルの稼働環境・追加学習環境を利用するためのリソースをまとめたリポジトリです。  
 nvidia-sandbox の 「sandbox」は、Netflix 韓国ドラマ 「START-UP」 より、すべての開発者のための 地ならし になればという想いから命名されました。  
-なお、各リポジトリのリソースは、そのままクラウド環境におけるアプリケーションにも適用可能です。  
 
 ## 前提条件  
 nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit](https://developer.nvidia.com/ja-jp/tao-toolkit)と、AIモデル動作環境の[NVIDIA DeepStream SDK](https://developer.nvidia.com/deepstream-sdk)の利用を前提としています。  
@@ -47,4 +46,3 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 
 * [bodyposenet-on-tao-toolkit](https://github.com/latonaio/bodyposenet-on-tao-toolkit)
 * [bodyposenet-on-deepstream](https://github.com/latonaio/bodyposenet-on-deepstream)
-
