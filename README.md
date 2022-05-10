@@ -12,7 +12,7 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 ## Latona における NVIDIAのAIモデル関連リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/nvidia-sandbox.drawio.png)
+![リソース整備状況](documents/NVIDIA_SANDBOX.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。  
@@ -32,10 +32,21 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 * [dashcamnet-on-tao-toolkit](https://github.com/latonaio/dashcamnet-on-tao-toolkit)
 * [dashcamnet-on-deepstream](https://github.com/latonaio/dashcamnet-on-deepstream)
 
+##### FaceDetectIR
+
+* [facedetectir-on-tao-toolkit](https://github.com/latonaio/facedetectir-on-tao-toolkit)
+* [facedetectir-on-deepstream](https://github.com/latonaio/facedetectir-on-deepstream)
+
+
 ##### PeopleSegNet
 
 * [peoplesegnet-on-tao-toolkit](https://github.com/latonaio/peoplesegnet-on-tao-toolkit)
 * [peoplesegnet-on-deepstream](https://github.com/latonaio/peoplesegnet-on-deepstream)
+
+##### PeopleSemSegNet
+
+* [peoplesemsegnet-on-tao-toolkit](https://github.com/latonaio/peoplesemsegnet-on-tao-toolkit)
+* [peoplesemsegnet-on-deepstream](https://github.com/latonaio/peoplesemsegnet-on-deepstream)
 
 ##### FaceDetect
 
