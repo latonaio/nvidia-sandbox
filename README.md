@@ -7,15 +7,15 @@ nvidia-sandbox は、NVIDIAの学習済みAIモデルの稼働環境・追加学
 nvidia-sandbox の 「sandbox」は、Netflix 韓国ドラマ 「START-UP」 より、すべての開発者のための 地ならし になればという想いから命名されました。  
 
 ## 前提条件  
-nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit](https://developer.nvidia.com/ja-jp/tao-toolkit)と、AIモデル動作環境の[NVIDIA DeepStream SDK](https://developer.nvidia.com/deepstream-sdk)の利用を前提としています。  
+nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit](https://developer.nvidia.com/ja-jp/tao-toolkit)、AIモデル動作環境の[NVIDIA DeepStream SDK](https://developer.nvidia.com/deepstream-sdk)・[NVIDIA TensorRT](https://developer.nvidia.com/tensorrt)の利用を前提としています。  
 
 ## Latona における NVIDIAのAIモデル関連リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/NVIDIA_SANDBOX_20220512.drawio.png)
+![リソース整備状況](documents/NVIDIA_SANDBOX_20220513.drawio.png)
 
 ## 各リソースの所在  
-各リソースの所在は、次の箇所です。  
+各リソースの所在は、次の箇所です。DeepStreamのリソースには、TensorRTが含まれます。  
 
 ##### TrafficCamNet
 
@@ -37,6 +37,15 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 * [facedetectir-on-tao-toolkit](https://github.com/latonaio/facedetectir-on-tao-toolkit)
 * [facedetectir-on-deepstream](https://github.com/latonaio/facedetectir-on-deepstream)
 
+##### VehicleMakeNet
+
+* [vehiclemakenet-on-tao-toolkit](https://github.com/latonaio/vehiclemakenet-on-tao-toolkit)
+* [vehiclemakenet-on-deepstream](https://github.com/latonaio/vehiclemakenet-on-deepstream)
+
+##### VehicleTypeNet
+
+* [vehicletypenet-on-tao-toolkit](https://github.com/latonaio/vehicletypenet-on-tao-toolkit)
+* [vehicletypenet-on-deepstream](https://github.com/latonaio/vehicletypenet-on-deepstream)
 
 ##### PeopleSegNet
 
@@ -48,6 +57,11 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 * [peoplesemsegnet-on-tao-toolkit](https://github.com/latonaio/peoplesemsegnet-on-tao-toolkit)
 * [peoplesemsegnet-on-deepstream](https://github.com/latonaio/peoplesemsegnet-on-deepstream)
 
+##### LPDNet
+
+* [lpdnet-on-tao-toolkit](https://github.com/latonaio/lpdnet-on-tao-toolkit)
+* [lpdnet-on-deepstream](https://github.com/latonaio/lpdnet-on-deepstream)
+
 ##### FaceDetect
 
 * [facedetect-on-tao-toolkit](https://github.com/latonaio/facedetect-on-tao-toolkit)
@@ -57,3 +71,7 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 
 * [bodyposenet-on-tao-toolkit](https://github.com/latonaio/bodyposenet-on-tao-toolkit)
 * [bodyposenet-on-deepstream](https://github.com/latonaio/bodyposenet-on-deepstream)
+
+##### Multi-Human Parsing
+
+* [multihumanparsing-on-tensorrt](https://github.com/latonaio/multihumanparsing-on-tensorrt)
