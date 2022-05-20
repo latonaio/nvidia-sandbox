@@ -12,7 +12,7 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 ## Latona における NVIDIAのAIモデル関連リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/NVIDIA_SANDBOX_20220516.drawio.png)
+![リソース整備状況](documents/NVIDIA_SANDBOX_20220520.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。DeepStreamのリソースには、TensorRTが含まれます。  
