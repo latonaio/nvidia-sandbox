@@ -62,6 +62,16 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 * [lpdnet-on-tao-toolkit](https://github.com/latonaio/lpdnet-on-tao-toolkit)
 * [lpdnet-on-deepstream](https://github.com/latonaio/lpdnet-on-deepstream)
 
+##### LPRNet
+
+* [lprnet-on-tao-toolkit](https://github.com/latonaio/lprnet-on-tao-toolkit)
+* [lprnet-on-deepstream](https://github.com/latonaio/lprnet-on-deepstream)
+
+##### FacialLandmarksEstimation
+
+* [facial-landmarks-estimation-on-tao-toolkit](https://github.com/latonaio/facial-landmarks-estimation-on-tao-toolkit)
+* [facial-landmarks-estimation-on-deepstream](https://github.com/latonaio/facial-landmarks-estimation-on-deepstream)
+
 ##### FaceDetect
 
 * [facedetect-on-tao-toolkit](https://github.com/latonaio/facedetect-on-tao-toolkit)
@@ -75,3 +85,12 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 ##### Multi-Human Parsing
 
 * [multihumanparsing-on-tensorrt](https://github.com/latonaio/multihumanparsing-on-tensorrt)
+
+##### PoseNet Body
+
+* [posenet-body-on-tensorrt](https://github.com/latonaio/posenet-body-on-tensorrt)
+
+##### PoseNet Hand
+
+* [posenet-hand-on-tensorrt](https://github.com/latonaio/posenet-hand-on-tensorrt)
+
