@@ -12,7 +12,7 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 ## Latona における NVIDIAのAIモデル関連リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/NVIDIA_SANDBOX_20220524.drawio.png)
+![リソース整備状況](documents/NVIDIA_SANDBOX_20220526.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。DeepStreamのリソースには、TensorRTが含まれます。  
@@ -72,6 +72,16 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 * [facial-landmarks-estimation-on-tao-toolkit](https://github.com/latonaio/facial-landmarks-estimation-on-tao-toolkit)
 * [facial-landmarks-estimation-on-deepstream](https://github.com/latonaio/facial-landmarks-estimation-on-deepstream)
 
+##### HeartRateEstimation
+
+* [heartrateestimation-on-tao-toolkit](https://github.com/latonaio/heartrateestimation-on-tao-toolkit)
+* [heartrateestimation-on-deepstream](https://github.com/latonaio/heartrateestimation-on-deepstream)
+
+##### GestureNet
+
+* [heartrateestimation-on-tao-toolkit](https://github.com/latonaio/heartrateestimation-on-tao-toolkit)
+* [heartrateestimation-on-deepstream](https://github.com/latonaio/heartrateestimation-on-deepstream)
+
 ##### FaceDetect
 
 * [facedetect-on-tao-toolkit](https://github.com/latonaio/facedetect-on-tao-toolkit)
@@ -81,6 +91,16 @@ nvidia-sandbox は、 AIモデル最適化を行うための[NVIDIA TAO Toolkit]
 
 * [bodyposenet-on-tao-toolkit](https://github.com/latonaio/bodyposenet-on-tao-toolkit)
 * [bodyposenet-on-deepstream](https://github.com/latonaio/bodyposenet-on-deepstream)
+
+##### BodyPoseNet
+
+* [bodyposenet-on-tao-toolkit](https://github.com/latonaio/bodyposenet-on-tao-toolkit)
+* [bodyposenet-on-deepstream](https://github.com/latonaio/bodyposenet-on-deepstream)
+
+##### EmotionNet
+
+* [emotionnet-on-tao-toolkit](https://github.com/latonaio/emotionnet-on-tao-toolkit)
+* [emotionnet-on-deepstream](https://github.com/latonaio/emotionnet-on-deepstream)
 
 ##### Multi-Human Parsing
 
